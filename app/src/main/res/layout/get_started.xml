@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1D345F"
+    android:background="@color/colorPrimary"
     tools:context="com.diseinnovation.fashionapp.get_started">
 
 
@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icon_app_get_started" />
+        app:srcCompat="@drawable/logo" />
 
     <Button
         android:id="@+id/button"
@@ -41,8 +41,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="250dp"
         android:lineSpacingExtra="10dp"
-        android:text="“Welcome to the online catalogue.
-        Hope you are enjoying”"
+        android:text="\n\n“Looking Fashionable under the umbrella of a humble budget is always a bit of hassle. No More.”"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
